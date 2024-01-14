@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 interface Module {
+  numbering: number;
   name: string;
   type: string;
   madeByUser: string[];
@@ -21,12 +22,13 @@ interface Course {
 // Function to create a demo course structure
 function createDemoCourse(courseName: string, moduleNames: string[]): Course {
   const modules: Module[] = moduleNames.map((moduleName, index) => ({
+    numbering: index + 1,
     name: `Module ${index + 1}`,
     type: 'text',
     madeByUser: ['https://avatars.githubusercontent.com/u/117301124?v=4'],
     madeByUserGit: ['https://github.com/Himasnhu-AT/'],
     description: `Description for ${moduleName}`,
-    content: `Content for ${moduleName}`,
+    content: `https://raw.githubusercontent.com/synthAI-Labs/OpenEdu-material/main/JavaScript/${moduleName}/${moduleName.toLowerCase()}.mdx`,
     image: `image${index + 1}.jpg`,
   }));
 
