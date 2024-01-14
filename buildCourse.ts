@@ -2,10 +2,15 @@ import fs from 'fs';
 import path from 'path';
 
 interface Module {
-  numbering: number;
   name: string;
-  mdxFileName: string;
+  type: string;
+  madeByUser: string[];
+  madeByUserGit: string[];
+  description: string;
+  content: string;
+  image: string;
 }
+
 
 interface Course {
   name: string;
@@ -13,11 +18,16 @@ interface Course {
 }
 
 // Function to create a demo course structure
+// Function to create a demo course structure
 function createDemoCourse(courseName: string, moduleNames: string[]): Course {
   const modules: Module[] = moduleNames.map((moduleName, index) => ({
-    numbering: index + 1,
-    name: moduleName,
-    mdxFileName: `${moduleName}.mdx`
+    name: `Module ${index + 1}`,
+    type: 'text',
+    madeByUser: ['https://avatars.githubusercontent.com/u/117301124?v=4'],
+    madeByUserGit: ['https://github.com/Himasnhu-AT/'],
+    description: `Description for ${moduleName}`,
+    content: `Content for ${moduleName}`,
+    image: `image${index + 1}.jpg`,
   }));
 
   return {
@@ -26,33 +36,10 @@ function createDemoCourse(courseName: string, moduleNames: string[]): Course {
   };
 }
 
-// Function to create module MDX content
-function createModuleMDXContent(moduleName: string): string {
-  return `# ${moduleName}\n\nThis is the content of the ${moduleName} module.`;
-}
 
-// Function to save the demo course to a directory
+// Function to save the demo course metadata to a JSON file
 function saveDemoCourse(course: Course) {
   const courseDirectory = path.join(__dirname, `/${course.name}`);
-
-  // Create the course directory if it doesn't exist
-  if (!fs.existsSync(courseDirectory)) {
-    fs.mkdirSync(courseDirectory);
-  }
-
-  // Save modules to the course directory
-  course.modules.forEach((module) => {
-    const moduleDirectory = path.join(courseDirectory, `/${module.name.replace(/\s+/g, '_').toLowerCase()}`);
-    const mdxFilePath = path.join(moduleDirectory, `/${module.mdxFileName}`);
-
-    // Create the module directory if it doesn't exist
-    if (!fs.existsSync(moduleDirectory)) {
-      fs.mkdirSync(moduleDirectory);
-    }
-
-    // Write the demo MDX content to the file
-    fs.writeFileSync(mdxFilePath, createModuleMDXContent(module.name));
-  });
 
   // Save course metadata to a JSON file
   const courseFilePath = path.join(courseDirectory, '/course.json');

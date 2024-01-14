@@ -2,114 +2,290 @@
   "name": "JavaScript",
   "modules": [
     {
-      "numbering": 1,
-      "name": "01_Day_Introduction",
-      "mdxFileName": "01_Day_Introduction.mdx"
+      "name": "Module 1",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 01_Day_Introduction",
+      "content": "Content for 01_Day_Introduction",
+      "image": "image1.jpg"
     },
     {
-      "numbering": 2,
-      "name": "02_Day_Data_types",
-      "mdxFileName": "02_Day_Data_types.mdx"
+      "name": "Module 2",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 02_Day_Data_types",
+      "content": "Content for 02_Day_Data_types",
+      "image": "image2.jpg"
     },
     {
-      "numbering": 3,
-      "name": "03_Day_Booleans_operators_date",
-      "mdxFileName": "03_Day_Booleans_operators_date.mdx"
+      "name": "Module 3",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 03_Day_Booleans_operators_date",
+      "content": "Content for 03_Day_Booleans_operators_date",
+      "image": "image3.jpg"
     },
     {
-      "numbering": 4,
-      "name": "04_Day_Conditionals",
-      "mdxFileName": "04_Day_Conditionals.mdx"
+      "name": "Module 4",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 04_Day_Conditionals",
+      "content": "Content for 04_Day_Conditionals",
+      "image": "image4.jpg"
     },
     {
-      "numbering": 5,
-      "name": "05_Day_Arrays",
-      "mdxFileName": "05_Day_Arrays.mdx"
+      "name": "Module 5",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 05_Day_Arrays",
+      "content": "Content for 05_Day_Arrays",
+      "image": "image5.jpg"
     },
     {
-      "numbering": 6,
-      "name": "06_Day_Loops",
-      "mdxFileName": "06_Day_Loops.mdx"
+      "name": "Module 6",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 06_Day_Loops",
+      "content": "Content for 06_Day_Loops",
+      "image": "image6.jpg"
     },
     {
-      "numbering": 7,
-      "name": "07_Day_Functions",
-      "mdxFileName": "07_Day_Functions.mdx"
+      "name": "Module 7",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 07_Day_Functions",
+      "content": "Content for 07_Day_Functions",
+      "image": "image7.jpg"
     },
     {
-      "numbering": 8,
-      "name": "08_Day_Objects",
-      "mdxFileName": "08_Day_Objects.mdx"
+      "name": "Module 8",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 08_Day_Objects",
+      "content": "Content for 08_Day_Objects",
+      "image": "image8.jpg"
     },
     {
-      "numbering": 9,
-      "name": "09_Day_Higher_order_functions",
-      "mdxFileName": "09_Day_Higher_order_functions.mdx"
+      "name": "Module 9",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 09_Day_Higher_order_functions",
+      "content": "Content for 09_Day_Higher_order_functions",
+      "image": "image9.jpg"
     },
     {
-      "numbering": 10,
-      "name": "10_Day_Sets_and_Maps",
-      "mdxFileName": "10_Day_Sets_and_Maps.mdx"
+      "name": "Module 10",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 10_Day_Sets_and_Maps",
+      "content": "Content for 10_Day_Sets_and_Maps",
+      "image": "image10.jpg"
     },
     {
-      "numbering": 11,
-      "name": "11_Day_Destructuring_and_spreading",
-      "mdxFileName": "11_Day_Destructuring_and_spreading.mdx"
+      "name": "Module 11",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 11_Day_Destructuring_and_spreading",
+      "content": "Content for 11_Day_Destructuring_and_spreading",
+      "image": "image11.jpg"
     },
     {
-      "numbering": 12,
-      "name": "12_Day_Regular_expressions",
-      "mdxFileName": "12_Day_Regular_expressions.mdx"
+      "name": "Module 12",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 12_Day_Regular_expressions",
+      "content": "Content for 12_Day_Regular_expressions",
+      "image": "image12.jpg"
     },
     {
-      "numbering": 13,
-      "name": "13_Day_Console_object_methods",
-      "mdxFileName": "13_Day_Console_object_methods.mdx"
+      "name": "Module 13",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 13_Day_Console_object_methods",
+      "content": "Content for 13_Day_Console_object_methods",
+      "image": "image13.jpg"
     },
     {
-      "numbering": 14,
-      "name": "14_Day_Error_handling",
-      "mdxFileName": "14_Day_Error_handling.mdx"
+      "name": "Module 14",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 14_Day_Error_handling",
+      "content": "Content for 14_Day_Error_handling",
+      "image": "image14.jpg"
     },
     {
-      "numbering": 15,
-      "name": "15_Day_Classes",
-      "mdxFileName": "15_Day_Classes.mdx"
+      "name": "Module 15",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 15_Day_Classes",
+      "content": "Content for 15_Day_Classes",
+      "image": "image15.jpg"
     },
     {
-      "numbering": 16,
-      "name": "16_Day_JSON",
-      "mdxFileName": "16_Day_JSON.mdx"
+      "name": "Module 16",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 16_Day_JSON",
+      "content": "Content for 16_Day_JSON",
+      "image": "image16.jpg"
     },
     {
-      "numbering": 17,
-      "name": "17_Day_Web_storages",
-      "mdxFileName": "17_Day_Web_storages.mdx"
+      "name": "Module 17",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 17_Day_Web_storages",
+      "content": "Content for 17_Day_Web_storages",
+      "image": "image17.jpg"
     },
     {
-      "numbering": 18,
-      "name": "18_Day_Promises",
-      "mdxFileName": "18_Day_Promises.mdx"
+      "name": "Module 18",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 18_Day_Promises",
+      "content": "Content for 18_Day_Promises",
+      "image": "image18.jpg"
     },
     {
-      "numbering": 19,
-      "name": "19_Day_Closures",
-      "mdxFileName": "19_Day_Closures.mdx"
+      "name": "Module 19",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 19_Day_Closures",
+      "content": "Content for 19_Day_Closures",
+      "image": "image19.jpg"
     },
     {
-      "numbering": 20,
-      "name": "20_Day_Writing_clean_codes",
-      "mdxFileName": "20_Day_Writing_clean_codes.mdx"
+      "name": "Module 20",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 20_Day_Writing_clean_codes",
+      "content": "Content for 20_Day_Writing_clean_codes",
+      "image": "image20.jpg"
     },
     {
-      "numbering": 21,
-      "name": "21_Day_DOM",
-      "mdxFileName": "21_Day_DOM.mdx"
+      "name": "Module 21",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 21_Day_DOM",
+      "content": "Content for 21_Day_DOM",
+      "image": "image21.jpg"
     },
     {
-      "numbering": 22,
-      "name": "22_Day_Manipulating_DOM_object",
-      "mdxFileName": "22_Day_Manipulating_DOM_object.mdx"
+      "name": "Module 22",
+      "type": "text",
+      "madeByUser": [
+        "https://avatars.githubusercontent.com/u/117301124?v=4"
+      ],
+      "madeByUserGit": [
+        "https://github.com/Himasnhu-AT/"
+      ],
+      "description": "Description for 22_Day_Manipulating_DOM_object",
+      "content": "Content for 22_Day_Manipulating_DOM_object",
+      "image": "image22.jpg"
     }
   ]
 }
